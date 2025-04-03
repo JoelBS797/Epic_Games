@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Suscripciones de JoelBS797</title>
+    <dateCreated>Martes 1 de abril</dateCreated>
+    <ownerName>JoelBS797</ownerName>
+  </head>
+  <body>
+
+    <outline 
+      text="Blog Epic Games" 
+      type="rss"
+      xmlUrl="https://joelbs797.github.io/feed/rss.xml" 
+      htmlUrl="https://joelbs797.github.io/blog/index.html"
+    />
+    
+
+    <outline 
+      text="Podcast Epic Games" 
+      type="rss"
+      xmlUrl="https://joelbs797.github.io/feed/podcast.xml" 
+      htmlUrl="https://joelbs797.github.io/podcast/index.html"
+    />
+
+  </body>
+</opml>
