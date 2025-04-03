@@ -249,32 +249,68 @@ section#tienda .juego .precio {
 
 
 
+/* Estilo para la sección de novedades */
+#novedades {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#novedades h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
 .novedades-grid {
-    display: grid;
-    gap: 30px;
-    padding: 40px 20px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0; /* Elimina espacios entre elementos inline-block */
 }
 
-.novedad-card {
-    background: #2c2c2c;
-    border-radius: 15px;
+.novedad-card, .novedad-content {
+    display: inline-block;
+    width: 30%; /* 3 columnas con espacio entre ellas */
+    margin: 0 1.5% 30px 1.5%;
+    vertical-align: top;
+    font-size: 16px; /* Restaura el tamaño de fuente */
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     overflow: hidden;
+    text-align: left;
 }
 
-.novedad-card img {
+.novedad-card img, .novedad-content img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    display: block;
 }
 
 .novedad-content {
-    padding: 20px;
+    padding: 15px;
 }
 
-.temporada-trailer {
-    text-align: center;
-    padding: 50px 20px;
-    background: #1a1a1a;
+.novedad-content h3 {
+    margin-top: 0;
+    color: #e63946;
+}
+
+.novedad-content p {
+    color: #555;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .novedad-card, .novedad-content {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
 }
 
 .producto-container {
