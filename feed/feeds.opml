@@ -11,16 +11,16 @@
       title="Blog Epic Games" 
       text="Blog Epic Games" 
       type="rss"
-      xmlUrl="https://joelbs797.github.io/feed/rss.xml" 
-      htmlUrl="https://joelbs797.github.io/blog/index.html"
+      xmlUrl="https://joelbs797.github.io/Epic_Games/feed/rss.xml" 
+      htmlUrl="https://joelbs797.github.io/Epic_Games/blog/index.html"
     />
     
     <outline 
       title="Podcast Epic Games" 
       text="Podcast Epic Games" 
       type="rss"
-      xmlUrl="https://joelbs797.github.io/feed/podcast.xml" 
-      htmlUrl="https://joelbs797.github.io/podcast/index.html"
+      xmlUrl="https://joelbs797.github.io/Epic_Games/feed/podcast.xml" 
+      htmlUrl="https://joelbs797.github.io/Epic_Games/podcast/index.html"
     />
 
   </body>
