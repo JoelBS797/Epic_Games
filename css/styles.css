@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,7 +17,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Header */
+
 header {
     background-color: #2c2c2c;
     padding: 20px 0;
@@ -26,7 +26,7 @@ header {
 }
 
 header .logo img {
-    max-width: 800px; /*Tamaño de la imagen*/
+    max-width: 800px;
 
 }
 
@@ -34,12 +34,12 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center; /* Centra los elementos del menú */
+    text-align: center;
 }
 
 nav ul li {
-    display: inline-block; /* Muestra los elementos en línea */
-    margin: 0 10px; /* Espacio entre elementos */
+    display: inline-block;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -52,7 +52,7 @@ nav ul li a:hover {
     color: #00a8ff;
 }
 
-/* Secciones */
+
 section {
     padding: 40px 20px;
     margin: 20px 0;
@@ -80,7 +80,7 @@ section#inicio p {
 }
 
 section#juegos {
-    text-align: center; /* Centra los juegos */
+    text-align: center;
 }
 
 section#juegos .juego {
@@ -89,9 +89,9 @@ section#juegos .juego {
     border-radius: 10px;
     text-align: center;
     width: 300px;
-    display: inline-block; /* Muestra los juegos en línea */
-    margin: 10px; /* Espacio entre juegos */
-    vertical-align: top; /* Alinea los juegos en la parte superior */
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
 }
 
 section#juegos .juego img {
@@ -130,7 +130,7 @@ section#noticias article a {
     font-weight: bold;
 }
 
-/* Footer */
+
 footer {
     background-color: #2c2c2c;
     padding: 20px;
@@ -162,19 +162,19 @@ footer p {
     color: #cccccc;
 }
 
-section#blog .entrada img {  /*Imagenes del blog*/
+section#blog .entrada img {
     max-width: 30%;
     border-radius: 40px;
 }
 
-section#destacados .destacado img {  /*Imagenes del podcast*/
+section#destacados .destacado img {
     max-width: 50%;
     border-radius: 40px;
 
 }
 
 
-/* Estilos para la sección de la tienda */
+
 section#tienda {
     padding: 40px 20px;
     background-color: #333;
@@ -247,7 +247,7 @@ section#tienda .juego .precio {
     text-decoration: none;
 }
 
-/* Post 2 */
+
 
 .novedades-grid {
     display: grid;
@@ -302,3 +302,17 @@ section#tienda .juego .precio {
     font-weight: bold;
     margin: 20px 0;
 }
+
+  .boton-rss {
+    background: #FF6600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+  }
+  .boton-rss:hover {
+    background: #E55C00;
+  }
