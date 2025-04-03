@@ -9,12 +9,15 @@
     <lastBuildDate>Fri, 28 Feb 2025 12:00:00 GMT</lastBuildDate>
 
     <!-- Añadido el espacio de nombres atom -->
-    <atom:link rel="self" href="https://joelbs797.github.io/Epic_Games/rss.xml" />
+    <atom:link rel="self" href="https://joelbs797.github.io/Epic_Games/feed/rss.xml" />
 
     <item>
       <title>Alfombra Epic Games - Edición especial</title>
       <link>https://joelbs797.github.io/Epic_Games/blog/post3.html</link>
-      <description>Alfombra oficial con el logo de Epic Games. ¡Perfecta para gamers!</description>
+      <description><![CDATA[
+        <img src="https://joelbs797.github.io/Epic_Games/blog/images/" alt="" width="300"/>
+        <p>Alfombra oficial con el logo de Epic Games. ¡Perfecta para gamers!</p>
+      ]]></description>
       <pubDate>Tue, 01 Apr 2025 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">alfombra-epic</guid>
     </item>
@@ -22,7 +25,10 @@
     <item>
       <title>Novedades en Epic Games Store</title>
       <link>https://joelbs797.github.io/Epic_Games/blog/post1.html</link>
-      <description>Juegos destacados: Fortnite (GRATIS), Rocket League (GRATIS), Unreal Tournament (14.99€)</description>
+      <description><![CDATA[
+        <img src="https://joelbs797.github.io/Epic_Games/blog/images/Fortnite.jpg" alt="" width="300"/>
+        <p>Juegos destacados: Fortnite (GRATIS), Rocket League (GRATIS), Unreal Tournament (14.99€)</p>
+      ]]></description>
       <pubDate>Mon, 31 Mar 2025 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">epic-store-feb-2025</guid>
     </item>
@@ -30,9 +36,10 @@
     <item>
       <title>Fortnite - Temporada 2 Capítulo 6: BANDIDOS</title>
       <link>https://joelbs797.github.io/Epic_Games/blog/index.html</link>
-      <description>
-        Novedades de la temporada BANDIDOS: mapa actualizado (Distrito Delito, Hostal Hostil), armas míticas y nuevo pase de batalla con skins exclusivas.
-      </description>
+      <description><![CDATA[
+        <img src="https://joelbs797.github.io/Epic_Games/blog/images/Mapa.jpg" alt="" width="300"/>
+        <p>Novedades de la temporada BANDIDOS: mapa actualizado (Distrito Delito, Hostal Hostil), armas míticas y nuevo pase de batalla con skins exclusivas.</p>
+      ]]></description>
       <pubDate>Mon, 31 Mar 2025 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">fortnite-bandidos-t2c6</guid>
     </item>
