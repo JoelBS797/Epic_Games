@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
     <title>Blog de JoelBS797</title>
@@ -8,7 +8,7 @@
     <language>es</language>
     <lastBuildDate>Fri, 28 Feb 2025 12:00:00 GMT</lastBuildDate>
 
-    <!-- Añadir link rel="self" -->
+    <!-- Añadido el espacio de nombres atom -->
     <atom:link rel="self" href="https://joelbs797.github.io/Epic_Games/rss.xml" />
 
     <item>
@@ -39,3 +39,4 @@
 
   </channel>
 </rss>
+
