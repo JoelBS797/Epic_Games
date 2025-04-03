@@ -250,6 +250,7 @@ section#tienda .juego .precio {
 
 /* novedades */
 
+
 section#novedades {
     text-align: center;
     padding: 40px 20px;
@@ -268,35 +269,43 @@ section#novedades h2 {
     max-width: 1200px;
 }
 
-.novedad-card, .novedad-content {
+.novedad-card {
     background-color: #2c2c2c;
     padding: 20px;
     border-radius: 10px;
-    text-align: center;
     width: 300px;
-    display: inline-block;
     margin: 10px;
+    display: inline-block;
     vertical-align: top;
+    box-sizing: border-box;
 }
 
-.novedad-card img, .novedad-content img {
-    max-width: 100%;
-    border-radius: 10px;
-    height: 180px;
-    object-fit: cover;
+.novedad-content {
+    padding: 0 10px;
+    word-wrap: break-word;
+    overflow: hidden;
 }
 
-.novedad-content h3 {
+.novedad-content h3, 
+.novedad-content h4 {
     margin: 15px 0 10px;
     color: #ffffff;
-    font-size: 1.3em;
 }
 
 .novedad-content p {
     font-size: 14px;
     color: #cccccc;
-    line-height: 1.5;
+    margin-bottom: 0;
+    line-height: 1.4;
 }
+
+.novedad-card img, .novedad-content img {
+    max-width: 100%; 
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
 
 /* novedades */
 
