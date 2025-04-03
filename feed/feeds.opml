@@ -2,20 +2,21 @@
 <opml version="2.0">
   <head>
     <title>Suscripciones de JoelBS797</title>
-    <dateCreated>Martes 1 de abril</dateCreated>
+    <dateCreated>Tue, 01 Apr 2025 00:00:00 GMT</dateCreated>
     <ownerName>JoelBS797</ownerName>
   </head>
   <body>
 
     <outline 
+      title="Blog Epic Games" 
       text="Blog Epic Games" 
       type="rss"
       xmlUrl="https://joelbs797.github.io/feed/rss.xml" 
       htmlUrl="https://joelbs797.github.io/blog/index.html"
     />
     
-
     <outline 
+      title="Podcast Epic Games" 
       text="Podcast Epic Games" 
       type="rss"
       xmlUrl="https://joelbs797.github.io/feed/podcast.xml" 
@@ -24,3 +25,4 @@
 
   </body>
 </opml>
+
